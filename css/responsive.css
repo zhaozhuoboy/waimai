@@ -1,0 +1,144 @@
+@media screen and (max-width: 768px){
+body{
+	font-size: 14px;
+}
+.shaixuan .bottom .search .search-box{
+	width: 160px;
+    height: 20px;
+}
+.shaixuan .bottom .search .search-btn{
+    width: 30px;
+    height: 30px;
+}
+
+.restaurant-list li{
+	width: 49.82%;
+}
+
+footer .foot-logo,footer .foot-appdown{
+	display: none;
+}
+
+}
+
+
+@media screen and (max-width: 414px){
+
+.inner{
+	width:98%; 
+	margin:0 auto;
+}
+
+header .top-right .btn{
+	display:inline-block;
+	height: 26px;
+    line-height: 26px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+    padding:0 10px;
+}
+.goTop{
+	display: none;
+}
+.kefu{
+	display: none;
+}
+.shaixuan .bottom>input{
+	margin-top: 10px;
+}
+.shaixuan .bottom .search{
+	margin-top: 10px;
+}
+.shaixuan .bottom .search .search-box{
+	width: 314px;
+
+}
+.restaurant-list li{
+	width: 100%;
+
+}
+.restaurant-list li a .restaurantPic{
+	width: 120px;
+    height: 100px;
+}
+.restaurant-list li a .restaurantPic img{
+	width: 120px;
+    height: 100px;
+
+}
+.restaurant-list li a .restaurantInfo{
+	width: 220px;
+}
+footer .copyright,footer .copyright .zjgs{
+	display: none;
+}
+
+footer ul{
+	float:none;
+	width:90%;
+	margin:0 auto;
+}
+
+footer ul li{
+	float: left;
+	width:30%;
+
+	margin-bottom: 15px;
+}
+footer .foot-kf{
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+
+}
+
+}
+@media screen and (max-width: 375px){
+.shaixuan .bottom .search .search-box{
+	width: 280px;
+}
+.goTop{
+	display: none;
+}
+.restaurant-list li a .restaurantInfo{
+	width: 200px;
+}
+}
+
+@media screen and (max-width: 360px){
+.shaixuan .bottom .search .search-box{
+	width: 260px;
+}
+.goTop{
+	display: none;
+}
+.restaurant-list li a .restaurantInfo{
+	width: 190px;
+}
+}
+
+@media screen and (max-width: 320px){
+.shaixuan .bottom .search .search-box{
+	width: 220px;
+}
+.restaurant-list li a .restaurantPic{
+	width: 86px;
+    height: 68px;
+}
+.goTop{
+	display: none;
+}
+.restaurant-list li a .restaurantPic img{
+	width: 86px;
+    height: 68px;
+
+}
+.restaurant-list li a .restaurantInfo{
+	width: 170px;
+}
+}

@@ -1,0 +1,173 @@
+section.main {
+	padding-bottom: 300px;
+}
+.main-left {
+	float: left;
+}
+.main-left ul {
+	list-style-type: none;
+	border: 1px solid #f0f1f2;
+}
+.main-left ul li {
+	margin-top: 1px;
+}
+.main-left ul li a {
+	display:block;
+	color:#000;
+	padding:0 30px 0 20px;
+	line-height: 40px;
+}
+.main-left a:hover {
+	background-color: #ff9500;
+	color:#fff;
+}
+.main-left a.active-li {
+	background-color: #ff9500;
+	color:#fff;
+}
+.main-right {
+	float: right;
+	width: 830px;
+	position: relative;
+}
+.main-right-inner {
+	width: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.active {
+	display:block;
+}
+.mycenter {
+	}
+.information {
+	border: 1px solid #e1e1e1;
+	padding: 10px 20px;
+	color:#999;
+	font-size: 13px;
+}
+.information a {
+	color:#999;
+}
+.information p {
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 12px;
+}
+.information-r-span1 {
+	width: 500px;
+	color:#000;
+	font-size: 24px;
+}
+.information-r-span2 {
+	float: right;
+	line-height: 24px;
+}
+.information li {
+	list-style-type: none;
+	float: left;
+	width: 185px;
+	padding: 10px 0;
+}
+.information li span {
+	margin-left: 10px;
+	color:#ff6f00;
+}
+.information .password-a {
+	color:#4784c1;
+}
+.information .a-color:hover {
+	color:#ff6f00;
+}
+.table {
+	margin-top: 40px;
+}
+.main-right-inner h2 {
+	position:relative;
+	border-left: 3px solid #ec7b01;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: normal;
+}
+.table h2 a {
+	color:#4784c1;
+	right: 0;
+	position: absolute;
+	font-size: 18px;
+}
+.list {
+	border: 1px solid #ddd;
+	margin-top: 22px;
+}
+.small-list {
+	height: 40px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color:#666;
+}
+.list-top {
+	background-color: #eee;
+	border-top: 3px solid #e1e1e1;
+}
+.list-top li {
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+}
+.list-bottom p,.li-first {
+	padding-left: 20px;
+	line-height: 40px;
+}
+.base {
+	}
+.base .list-inner {
+	padding: 50px 300px 50px 130px;
+}
+.base li {
+	font-size: 14px;
+	list-style-type: none;
+	line-height: 40px;
+}
+.base a {
+	color:#ec7b01;
+	float: right;
+}
+.list-inner-a1 {
+	margin-right: 28px;
+}
+.send {
+	}
+.order {
+	}
+.order .list,.list-top {
+	border: 0;
+}
+.order .button {
+	float: right;
+	margin-top: 35px;
+}
+.order .button a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	color:#afb1b2;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+.order .button .active-a {
+	background-color: #ff9500;
+	color:#fff;
+}
+.button a:hover {
+	background-color: #ff9500;
+	color:#fff;
+}
+.genzong {
+	}
+/*display: block;*/
+	.genzong p {
+	font-size: 14px;
+}
